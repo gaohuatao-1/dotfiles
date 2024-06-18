@@ -22,7 +22,7 @@ services:
     image: nginxproxy/acme-companion
     restart: always
     environment:
-      - DEFAULT_EMAIL=yilei108@gmail.com
+      - DEFAULT_EMAIL=gaohuatao1@gmail.com
     volumes_from:
       - nginx-proxy
     volumes:

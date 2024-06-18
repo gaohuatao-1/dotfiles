@@ -8,9 +8,9 @@ services:
       # - ./config.json:/etc/v2ray/config.json
     restart: always
     environment:
-      - VIRTUAL_HOST=yar2v.yilei.dev
-      - LETSENCRYPT_HOST=yar2v.yilei.dev
-      - LETSENCRYPT_EMAIL=yilei108@gmail.com
+      - VIRTUAL_HOST=gv2dev.com
+      - LETSENCRYPT_HOST=gv2dev.com
+      - LETSENCRYPT_EMAIL=gaohuatao1@gmail.com
     expose:
       - "9090"
     networks:
